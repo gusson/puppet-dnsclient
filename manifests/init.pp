@@ -70,8 +70,8 @@
 # - *Default*: '0644'
 #
 class dnsclient                 (
-  $nameservers                 = [ '8.8.8.8',
-                                  '8.8.4.4' ],
+  $nameservers                 = [ '8.8.4.4',
+                                  '8.8.8.8' ],
   $options                     = [ 'rotate',
                                   'timeout:1'],
   $search                      = ['UNSET'],
